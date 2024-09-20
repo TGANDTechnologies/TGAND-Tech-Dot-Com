@@ -531,7 +531,7 @@ button:focus:not(:focus-visible) {
   PRICING PLANS               
 -----------------------------------------*/
 .pricing {
-  background-image: url('../images/maria-stewart-p4tj0g-_aMM-unsplash.jpg');
+  background-image: url('../images/fire-in-kitchen.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -605,10 +605,11 @@ button:focus:not(:focus-visible) {
 }
 
 .services-image {
-  display: block;
+  position: relative;
   margin: auto;
-  width: 250px;
-  height: 250px;
+  width: 100%;
+  height: auto;
+
 }
 
 .services-info {
