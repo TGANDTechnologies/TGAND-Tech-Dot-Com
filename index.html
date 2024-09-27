@@ -17,7 +17,16 @@
         <link href="css/magnific-popup.css" rel="stylesheet">
         <link href="css/tooplate-tween-agency.css" rel="stylesheet">
 
-
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "TVG6LxwfqULVYzGr9",
+      });
+   })();
+</script>     
         
     </head>
     
@@ -450,7 +459,7 @@
                         <div class="col-lg-8 col-md-10 col-12 mx-auto">
                             <h2 class="mb-4 text-center">Let's chat</h2>
 
-                            <form class="custom-form" role="form" action="" method="post">
+                            <form class="custom-form" id="contact-form">
                                 <div class="row">
                                     <div class="col-lg-4 col-md-6 col-12 my-2">
                                         <label class="mb-2" for="name">Full Name</label>
@@ -465,7 +474,7 @@
                                     </div>
 
                                     <div class="col-lg-4 col-md-6 col-12 my-2">
-                                        <label class="mb-2" for="subject">How did you know about us?</label>
+                                        <label class="mb-2" for="subject">What are you interested in speaking about?</label>
 
                                         <select class="form-select form-control" name="subject" id="subject">
                                             <option selected="">Choose a subject</option>
@@ -482,7 +491,7 @@
 
                                         <textarea class="form-control" rows="5" id="message" name="message"></textarea>
                                     
-                                        <button type="submit" class="form-control mt-4" id="submit">Submit</button>
+                                        <button type="submit" onclick="sendMail()" class="form-control mt-4" id="submit" value="send">Submit</button>
                                     </div>
 
                                 </div>
@@ -574,5 +583,6 @@
         <script src="js/magnific-popup-options.js"></script>
         <script src="js/click-scroll.js"></script>
         <script src="js/custom.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
