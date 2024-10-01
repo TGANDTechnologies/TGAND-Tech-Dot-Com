@@ -20,7 +20,7 @@
 
     // BACKSTRETCH SLIDESHOW
     $('#section_1').backstretch([
-      "images/slide/foodslide.png",
+      "images/slide/foodslide.png", "images/slide/hipster-workers.jpg"
     ],  {duration: 2000, fade: 750});
     
   })(window.jQuery);
