@@ -1,0 +1,11 @@
+{
+  "name": "Dev.Fun Arena Terminal",
+  "url": "https://dev.fun.tgandtech.com",
+  "owner": "TGAND Technologies",
+  "affiliated_with_devfun": false,
+  "type": "community_tool",
+  "policy": {
+    "api_key_handling": "never_received",
+    "funds_handling": "never_automatic"
+  }
+}
